@@ -31,6 +31,8 @@
 #'
 #' @rdname progress_bar_icon
 #' @seealso [progress::progress_bar]
+#' @importFrom progress progress_bar
+#' @importFrom crayon green
 #' @export
 
 

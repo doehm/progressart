@@ -29,6 +29,8 @@
 #' }
 #' @rdname token
 #' @importFrom stringr str_length str_sub
+#' @importFrom progress progress_bar
+#' @importFrom crayon green
 #' @export
 
 
