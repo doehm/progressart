@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1565697000171.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "A350483B",
+    "lastKnownWriteTime" : 1565697060,
+    "last_content_update" : 1565697060719,
+    "path" : "C:/Users/Dan/Google Drive/R Code/funnerprogress/R/progress-icon.R",
+    "project_path" : "R/progress-icon.R",
+    "properties" : {
+        "cursorPosition" : "44,16",
+        "scrollLine" : "36",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
