@@ -1,6 +1,6 @@
 #' @title Progress icon type
 #' @description Adds fun icons to your progress bar. A watched pot neer boils, ergo progress bars can feel like they take forever. May as well have some fun with it.
-#' @param icon The icon type you wish to use. See details
+#' @param icon The icon / image / emote type you wish to use. See details
 #' @param length The total number of iterations in the loop.
 #' @param width Width of the bar. Default is width of console - 20 to allow room for other counters.
 #' @details Icon types: \code{fish}, \code{tiefighter}, \code{dagger}, \code{greatsword}
