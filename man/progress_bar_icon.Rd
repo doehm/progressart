@@ -46,5 +46,5 @@ Icon types: \code{fish}, \code{tiefighter}, \code{dagger}, \code{greatsword}
 
 }
 \seealso{
-[progress::progress_bar]
+[progress_bar], [token]
 }
