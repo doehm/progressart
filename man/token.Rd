@@ -28,7 +28,7 @@ Each small fish represents 25\% of the progress. When they're all gobbled up by 
 
 Each dagger box represents 20\% completion.
 
-Each tie fighter represents 30\% completion.
+Each tie fighter represents 33\% completion.
 }
 \examples{
 \dontrun{

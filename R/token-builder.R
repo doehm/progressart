@@ -80,7 +80,7 @@ token.dagger <- function(pbicon, j){
 
 
 #' @title Tie Fighter progress bar icon
-#' @details Each tie fighter represents 30\% completion.
+#' @details Each tie fighter represents 33\% completion.
 #' @rdname token
 #' @importFrom stringr str_length str_sub str_sub<-
 #' @export
