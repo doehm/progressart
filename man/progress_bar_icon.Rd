@@ -19,6 +19,32 @@ Adds fun icons to your progress bar. A watched pot neer boils, ergo progress bar
 \details{
 Icon types: \code{fish}, \code{tiefighter}, \code{dagger}, \code{greatsword}
 }
+\examples{
+\dontrun{
+ n <- 500
+ bar_fmt <- ":elapsedfull | :fish |"
+ pb <- progress_bar$new(format = bar_fmt, total = n, clear = FALSE)
+ fish <- progress_bar_icon("fish", n)
+ for(j in 1:n){
+   pb$tick(tokens = list(
+     fish = token(fish, j)
+   ))
+   Sys.sleep(0.03)
+ }
+
+ n <- 500
+ bar_fmt <- green$bold(":elapsedfull | :tie |")
+ pb <- progress_bar$new(format = bar_fmt, total = n, clear = FALSE)
+ tie <- progress_bar_icon("tiefighter", n, 60)
+ for(j in 1:n){
+   pb$tick(tokens = list(
+     tie = token(tie, j)
+   ))
+   Sys.sleep(0.03)
+ }
+}
+
+}
 \seealso{
 [progress::progress_bar]
 }

@@ -11,10 +11,6 @@ Depends:
   stringr (>= 1.0.0),
   progress (>= 1.0.0),
   crayon (>= 1.0.0)
-Imports:
-  stringr (>= 1.0.0),
-  progress (>= 1.0.0),
-  crayon (>= 1.0.0)
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1

@@ -5,21 +5,21 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "0",
+    "hash" : "76133067",
     "id" : "4C435924",
-    "lastKnownWriteTime" : 1565697030,
-    "last_content_update" : 1565697030492,
+    "lastKnownWriteTime" : 1565699593,
+    "last_content_update" : 1565699593672,
     "path" : "C:/Users/Dan/Google Drive/R Code/funnerprogress/R/token-builder.R",
     "project_path" : "R/token-builder.R",
     "properties" : {
-        "cursorPosition" : "104,0",
-        "scrollLine" : "59",
+        "cursorPosition" : "8,39",
+        "scrollLine" : "0",
         "tempName" : "Untitled2"
     },
     "read_only" : false,
     "read_only_alternatives" : [
     ],
-    "relative_order" : 3,
+    "relative_order" : 2,
     "source_on_save" : false,
     "source_window" : "",
     "type" : "r_source"

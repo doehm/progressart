@@ -6,9 +6,6 @@
 #' @details Icon types: \code{fish}, \code{tiefighter}, \code{dagger}, \code{greatsword}
 #' @examples
 #' \dontrun{
-#'  library(progress)
-#'  library(stringr)
-#'  library(crayon)
 #'  n <- 500
 #'  bar_fmt <- ":elapsedfull | :fish |"
 #'  pb <- progress_bar$new(format = bar_fmt, total = n, clear = FALSE)
@@ -19,11 +16,11 @@
 #'    ))
 #'    Sys.sleep(0.03)
 #'  }
-#' }
 #'
-#'  bar_fmt <- ":elapsedfull | :tie |"
+#'  n <- 500
+#'  bar_fmt <- green$bold(":elapsedfull | :tie |")
 #'  pb <- progress_bar$new(format = bar_fmt, total = n, clear = FALSE)
-#'  tie <- progress_bar_icon("tie", n)
+#'  tie <- progress_bar_icon("tiefighter", n, 60)
 #'  for(j in 1:n){
 #'    pb$tick(tokens = list(
 #'      tie = token(tie, j)
@@ -57,7 +54,7 @@ progress_bar_icon <- function(icon, length, width = options()$width-20){
   )
 
   special <- list(order = rep(0, length), pos = rep(0, length))
-  for(k in 1:30){
+  for(k in 1:(length/15)){
     st <- sample(1:(length-9), 1)
     special$order[st:(st+8)] <- sort(rep(1:3, 3))
     special$pos[st:(st+8)] <- sample(5:(width-5), 1)
